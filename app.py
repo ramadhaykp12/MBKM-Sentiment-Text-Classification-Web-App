@@ -17,7 +17,7 @@ def predict(text):
     return prediction[0]
 
 # Aplikasi Streamlit
-st.title('Klasifikasi Teks Sentimen dengan KNN')
+st.title('Klasifikasi Teks Sentimen dengan KNN Terhadap Kebijakan Merdeka Belajar Kampus Merdeka')
 st.write('Masukkan teks untuk diprediksi apakah itu positif, negatif atau netral.')
 
 user_input = st.text_input('Masukkan teks:', '')
